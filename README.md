@@ -91,17 +91,21 @@ cd backend
 npm install
 ```
 
-3. Create a `.env` file in the backend directory (copy from `.env.example`):
+3. Create a `.env` file in the backend directory:
 ```env
 PORT=5000
 NODE_ENV=development
-MONGODB_URI=mongodb+srv://adminabiy:adminabiy123@lexury.4hdr4hh.mongodb.net/?appName=lexury
+MONGODB_URI=your_mongodb_connection_string_here
 JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
 JWT_EXPIRE=7d
 UPLOAD_PATH=./uploads
 MAX_FILE_SIZE=5242880
 FRONTEND_URL=http://localhost:5173
 ```
+
+   **Note:** Replace `your_mongodb_connection_string_here` with your MongoDB connection string.
+   - For local MongoDB: `mongodb://localhost:27017/lexury-ecommerce`
+   - For MongoDB Atlas: `mongodb+srv://username:password@cluster.mongodb.net/database-name`
 
 4. Start MongoDB (if running locally)
 
