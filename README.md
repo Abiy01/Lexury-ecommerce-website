@@ -1,3 +1,5 @@
+https://lexury-ecommerce-website.vercel.app/
+
 # Lexury E-commerce Website
 
 A modern, luxury e-commerce platform built with React, TypeScript, and Node.js.
